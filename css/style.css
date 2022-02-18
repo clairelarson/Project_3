@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-	background-color: #6D6875;
+	background-color: #554A65;
 	color: white;
 	margin: auto;
 	padding: 2rem;
@@ -55,7 +55,7 @@ label {
   outline: 0;
   padding: 15px;
   width: 100%;
-  color: #B5838D;
+  color: #6F4447;
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 30px;
 }
@@ -72,7 +72,7 @@ textarea {
 
 button {
   padding: 19px 39px 18px 39px;
-  color: #FFF;
+  color: #2A2A2D;
   background-color: #f4acb7;
   font-size: 18px;
   text-align: center;
@@ -108,6 +108,7 @@ input[type="radio"] {
 ::placeholder {
   text-align: right;
   font-style: italic;
+  color: #59363C;
 }
 
 /* containers */
@@ -138,7 +139,7 @@ input[type="radio"] {
 }
 
 #newsletter p {
-	margin-bottom: 1rem;
+	margin-bottom: .5rem;
 }
 
 /* media queries */
@@ -162,10 +163,5 @@ input[type="radio"] {
     flex-basis: 33%;
     margin-right: 30px;
   }
-
-}
-
-@media screen and (min-width: 1024px) {
-
 
 }
