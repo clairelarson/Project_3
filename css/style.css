@@ -60,10 +60,17 @@ label {
   margin-bottom: 30px;
 }
 
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  text-align: right;
+}
+
 select {
   padding: 6px;
   height: 50px;
   border-radius: 2px;
+  text-align: right;
 }
 
 textarea {
@@ -109,6 +116,10 @@ input[type="radio"] {
   font-size: .8em;
   font-style: italic;
   color: #59363C;
+}
+
+ input::placeholder {
+    text-align: right;
 }
 
 
